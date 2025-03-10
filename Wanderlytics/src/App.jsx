@@ -2,12 +2,13 @@ import React from 'react';
 
 import{Button} from './components/ui/Button'
 import './App.css'
+import Lay from './components/custom/Lay'; 
 
 function App() {
   return (
     <>
       <div>
-        <Button>ayoo</Button>
+        <Lay></Lay>
       </div>
        
     </>
