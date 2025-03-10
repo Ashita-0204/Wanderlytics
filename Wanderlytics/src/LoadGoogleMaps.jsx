@@ -6,7 +6,7 @@
 //   useEffect(() => {
 //     if (!window.google) {
 //       const script = document.createElement("script");
-//       script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDWnDD6XWx3UJC4uk6mLMJjCv5vGnBI9Qc&libraries=places`;
+//       script.src = `https://maps.googleapis.com/maps/api/js?key=**api**&libraries=places`;
 //       script.async = true;
 //       script.defer = true;
 //       script.onload = () => setIsLoaded(true);
